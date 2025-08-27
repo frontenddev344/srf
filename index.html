@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surf The Lake</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Surf The Lake Logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Overlay -->
+    <div class="menu-overlay" id="menu-overlay"></div>
+
+    <!-- Navigation Menu Sidebar -->
+    <div class="nav-menu" id="nav-menu">
+        <div class="nav-menu-header">
+            <h3>MENU</h3>
+            <button class="close-menu" id="close-menu">×</button>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">HOME</a>
+            <a href="#competition" class="nav-link">COMPETITION & DIVISIONS</a>
+            <a href="#location" class="nav-link">LOCATION & VISITOR INFO</a>
+            <a href="#media" class="nav-link">MEDIA & PRESS</a>
+            <a href="#registration" class="nav-link">REGISTRATION</a>
+        </div>
+        <div class="search-section">
+            <input type="text" class="search-input" placeholder="Search...">
+        </div>
+        <div class="social-icons">
+            <a href="#" class="social-icon facebook" aria-label="Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+            </a>
+            <a href="#" class="social-icon instagram" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987 6.62 0 11.987-5.367 11.987-11.987C24.014 5.367 18.637.001 12.017.001zM8.449 16.988c-1.297 0-2.448-.49-3.323-1.297C4.198 14.895 3.708 13.744 3.708 12.447s.49-2.448 1.297-3.323c.875-.807 2.026-1.297 3.323-1.297s2.448.49 3.323 1.297c.807.875 1.297 2.026 1.297 3.323s-.49 2.448-1.297 3.323c-.875.807-2.026 1.297-3.323 1.297zm7.718-1.297c-.49.49-1.141.807-1.892.807-.751 0-1.402-.317-1.892-.807-.49-.49-.807-1.141-.807-1.892s.317-1.402.807-1.892c.49-.49 1.141-.807 1.892-.807.751 0 1.402.317 1.892.807.49.49.807 1.141.807 1.892s-.317 1.402-.807 1.892z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="main-container">
+        <!-- Home Section -->
+        <section id="home" class="slide active">
+            <div class="video-background">
+                <video autoplay muted loop playsinline>
+                    <source src="images/up-video.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            <div class="content">
+                <div class="hero-text">
+                    <h1 class="main-title">SURF THE LAKE</h1>
+                    <h2 class="subtitle">WAKESURFING COMPETITION</h2>
+                    <p class="location">LAKE LBJ, TEXAS</p>
+                    <p class="dates">AUGUST 15-17, 2025</p>
+                    <div class="cta-buttons">
+                        <a href="#registration" class="btn btn-primary">REGISTER NOW</a>
+                        <a href="#about" class="btn btn-secondary">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competition Section -->
+        <section id="competition" class="slide">
+            <div class="competition-background">
+                <img src="images/Palmer at Surf The Lake 2023.jpg" alt="Surf The Lake Competition Background">
+                <div class="competition-overlay"></div>
+            </div>
+            <div class="content">
+                <div class="competition-text">
+                    <h2>WAKEBOARDING & SURF COMPETITION</h2>
+                    <h3>PRO & AMATEUR DIVISIONS</h3>
+                    <div class="prize-info">
+                        <p>$40,000 IN CASH PRIZES</p>
+                        <p>$25,000 SHOOTOUT</p>
+                    </div>
+                    <a href="#registration" class="btn btn-primary">LEARN MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Section -->
+        <section id="location" class="slide">
+            <div class="location-background">
+                <img src="images/Kahla Archibald at Surf The Lake 2023.jpg" alt="Kahla Archibald at Surf The Lake 2023">
+                <div class="location-overlay"></div>
+            </div>
+            <div class="content">
+                <div class="location-text">
+                    <h2>KINGSLAND, TEXAS</h2>
+                    <h3>HOSTED @ LAKE LBJ</h3>
+                    <p>LEARN MORE ABOUT LAKE LBJ SPECIFICS, INCLUDING MAPS, ACCOMMODATION RECOMMENDATIONS, BOAT DOCKING AND SPECTATOR TIPS.</p>
+                    <a href="#about" class="btn btn-primary">LOCATION INFO</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsors Section (4th Slide) -->
+        <section id="sponsors" class="slide">
+            <img src="images/sponsors.png" alt="Sponsors Banner" class="sponsors-image">
+            <img src="images/sponsors-mobile.png" alt="Sponsors Banner Mobile" class="sponsors-image-mobile">
+        </section>
+
+        <!-- Media Section -->
+        <section id="media" class="slide">
+            <div class="media-background">
+                <img src="images/TradeMarek_DFWSurftheLake2019-028.jpg" alt="Surf The Lake Media Background">
+                <div class="media-overlay"></div>
+            </div>
+            <div class="content">
+                <div class="media-container">
+                    <div class="media-text">
+                        <div class="media-box">
+                            <p class="official-text">OFFICIAL</p>
+                            <h2>MEDIA</h2>
+                            <p>& PRESS PAGE</p>
+                        </div>
+                        <div class="media-buttons">
+                            <a href="#" class="btn btn-dark">MEDIA KITS & MORE</a>
+                            <a href="#" class="btn btn-dark">HYPE VIDEO</a>
+                        </div>
+                    </div>
+                    <div class="media-logo">
+                        <img src="images/logo.png" alt="Surf The Lake Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Registration Section -->
+        <section id="registration" class="slide">
+            <div class="content">
+                <div class="registration-container">
+                    <div class="wwa-logo">
+                        <img src="images/Action Logo PNG.png" alt="Action Watersports">
+                    </div>
+                    <div class="registration-info">
+                        <div class="register-text">
+                            <p>CLICK THE LINK TO</p>
+                            <h2>REGISTER</h2>
+                            <p>ALL DIVISIONS</p>
+                        </div>
+                        <a href="#" class="btn btn-primary">REGISTER NOW</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="nav-dots">
+        <div class="dot active" data-slide="home"></div>
+        <div class="dot" data-slide="competition"></div>
+        <div class="dot" data-slide="location"></div>
+        <div class="dot" data-slide="sponsors"></div>
+        <div class="dot" data-slide="media"></div>
+        <div class="dot" data-slide="registration"></div>
+    </div>
+
+   
+
+    <script src="js/script.js"></script>
+</body>
+</html>
