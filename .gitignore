@@ -1,5 +1,4 @@
-# Large video files
-*.mp4
+# Large video files (handled by Git LFS)
 *.avi
 *.mov
 *.wmv
